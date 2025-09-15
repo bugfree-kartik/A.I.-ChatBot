@@ -1,5 +1,7 @@
 🩺 AI-Health-Chatbot — End-to-End ML + NLP Healthcare Assistant
 
+![chatBot](https://github.com/user-attachments/assets/fb61ca62-c940-44aa-b533-14312a44a4da)
+
 AI-Health-Chatbot is an end-to-end Python project that transforms free-text symptom descriptions into disease likelihoods with confidence scores, wrapped in an interactive, doctor-style chatbot experience.
 
 It demonstrates the full ML lifecycle:
@@ -15,6 +17,7 @@ Data prep → NLP feature engineering → Model training (Random Forest) → Con
 🤖 Probabilistic prediction: Trained RandomForestClassifier outputs top-k candidate conditions with predict_proba confidence scores.
 
 💡 Actionable output: Provides precautions, general health tips, and a motivational closing.
+
 
 🛠️ Tech Stack
 
@@ -40,4 +43,3 @@ Output Generation → Predicted conditions, precautions, and health tips
 
 
 
-![chatBot](https://github.com/user-attachments/assets/9e67a239-c887-40e1-a5cb-23313abe1e64)
