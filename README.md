@@ -1,28 +1,43 @@
-# AI-Health-Chatbot
-💡 Ever wondered if Artificial Intelligence can act like a doctor? In this video, I’ll show you how I built an AI-powered Healthcare Chatbot that can predict diseases from symptoms using Machine Learning in Python. 🚑
-We’ll go step by step:
-✅ Symptom extraction with NLP
-✅ Training a Machine Learning model (Random Forest Classifier)
-✅ Building an interactive chatbot to ask follow-up questions
-✅ Disease prediction with confidence score
-✅ Giving precautions, health tips, and an end motivational quote 💬
+🩺 AI-Health-Chatbot — End-to-End ML + NLP Healthcare Assistant
 
-This is a complete End-to-End Machine Learning Project in Python — perfect for students, beginners, and anyone looking to add an AI + Healthcare project to their portfolio.
+AI-Health-Chatbot is an end-to-end Python project that transforms free-text symptom descriptions into disease likelihoods with confidence scores, wrapped in an interactive, doctor-style chatbot experience.
 
-✨ By the end, you’ll learn how to:
+It demonstrates the full ML lifecycle:
+Data prep → NLP feature engineering → Model training (Random Forest) → Conversational reasoning → Actionable health advice
 
-Collect and preprocess medical data
 
-Train a model to detect diseases from symptoms
+🚀 Features
 
-Build a chatbot interface (with follow-up questions & advice)
+🗣️ Natural-language intake: Parses messy symptom text (e.g., “fever, bad cough at night, slight chest pain”).
 
-Integrate AI into a user-friendly healthcare solution
+📊 Structured reasoning: Maps extracted symptoms into model-ready features; asks targeted follow-up questions to reduce uncertainty.
 
-📌 Technologies used: Python, Scikit-learn, Pandas, NLP, Machine Learning
+🤖 Probabilistic prediction: Trained RandomForestClassifier outputs top-k candidate conditions with predict_proba confidence scores.
 
-💬 If you’re a beginner in ML/AI, this project will help you understand how to turn an idea into a working application.
+💡 Actionable output: Provides precautions, general health tips, and a motivational closing.
 
-🔔 Subscribe for more AI, ML, and Python projects: @souvikchai
+🛠️ Tech Stack
 
-📢 Share this project with your friends who are into Data Science & Healthcare AI!
+Language: Python 🐍
+
+Libraries: scikit-learn, pandas, NLP preprocessing tools
+
+Model: Random Forest Classifier 🌲
+
+Interface: Interactive chatbot (command-line based)
+
+📌 Project Workflow
+
+Data Preparation → Cleaning and preprocessing symptom datasets
+
+Feature Engineering → NLP-based symptom extraction and encoding
+
+Model Training → Random Forest classification with probability scores
+
+Chatbot Flow → Interactive follow-up Q&A for better accuracy
+
+Output Generation → Predicted conditions, precautions, and health tips
+
+
+
+![chatBot](https://github.com/user-attachments/assets/9e67a239-c887-40e1-a5cb-23313abe1e64)
